@@ -22,5 +22,4 @@ export function CharacterCard(image, name, status, type, episode) {
       </dl>
     </div>
   </li>`;
-  /*innerHTML = "";*/
 }
