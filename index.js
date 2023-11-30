@@ -22,7 +22,6 @@ async function fetchData() {
   );
   const data = await response.json();
   maxPage = data.info.pages;
-
   return data.results;
 }
 
